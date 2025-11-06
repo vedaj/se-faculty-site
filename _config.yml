@@ -1,11 +1,10 @@
 title: Software Engineering Faculty Team
-description: Course coordination portal
+description: Course coordination portal for faculty and staff
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Custom data files
 collections:
   - members
   - links
@@ -15,3 +14,15 @@ defaults:
       path: ""
     values:
       layout: default
+
+# Assets
+assets:
+  sources:
+    - _assets/fonts
+    - _assets/images
+
+# Google Fonts
+google_fonts: "Inter:400,500,600,700"
+
+# Favicon
+favicon_ico: /assets/favicon.ico
