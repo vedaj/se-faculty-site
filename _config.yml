@@ -1,0 +1,17 @@
+title: Software Engineering Faculty Team
+description: Course coordination portal
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Custom data files
+collections:
+  - members
+  - links
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
