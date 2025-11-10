@@ -14,7 +14,7 @@ title: Home
         <div class="col-md-6 col-lg-4">
           <div class="card h-100">
             {% if member.photo %}
-            <img src="{{ member.photo }}" class="card-img-top" alt="{{ member.name }}">
+            <img src="{{ member.photo | relative_url }}" class="card-img-top" alt="{{ member.name }}">
             {% endif %}
             <div class="card-body text-center">
               <h5 class="card-title">{{ member.name }}</h5>
@@ -75,7 +75,7 @@ title: Home
         <i class="fas fa-link me-2"></i>Quick Access
       </div>
       <div class="list-group list-group-flush">
-        <a href="/docs/syllabus.pdf" class="list-group-item list-group-item-action">
+        <a href="{{ '/docs/syllabus.pdf' | relative_url }}" class="list-group-item list-group-item-action">
           <i class="fas fa-file-pdf text-danger"></i> Syllabus
         </a>
         <a href="https://drive.google.com/drive/folders/YOUR_FILES_ID" class="list-group-item list-group-item-action">
