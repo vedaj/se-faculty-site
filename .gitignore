@@ -1,0 +1,203 @@
+# Generated .gitignore for cross-platform development (Linux, Windows, macOS)
+# Excludes IDEs, build artifacts, OS-specific files, and common temp files
+
+# === OS-Specific Files ===
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.nfs*
+
+# === IDEs and Editors ===
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains (PyCharm, IntelliJ, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# === Build and Dependency Directories ===
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Node.js / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.tmp/
+.temp/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+*.log
+hs_err_pid*
+
+# C/C++
+*.o
+*.a
+*.so
+*.obj
+*.exe
+*.dll
+*.dylib
+*.out
+*.app
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.manifest
+*.res
+*.pch
+*.sdf
+*.opensdf
+*.suo
+*.cache
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.log
+*.tgz
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Go
+*.exe~
+*.test
+*.prof
+
+# Rust
+/target/
+Cargo.lock  # Only exclude if not needed in repo
+
+# === Virtual Environments & Package Managers ===
+
+# Python
+ENV/
+env.bak/
+venv.bak/
+
+# Conda
+.conda/
+conda-meta/
+
+# Pipenv
+Pipfile.lock  # Optional: exclude if not sharing
+
+# === Logs and Databases ===
+
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# === Temporary Files ===
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# === Docker ===
+.dockerignore
+Dockerfile*
+.docker/
+
+# === Misc ===
+*.DS_Store
+*.lnk
+*.tmp
+*.temp
+*.bak
+*.cache
+*.egg-info/
+*.dist-info/
+*.egg
+*.whl
+
+# End of .gitignore
