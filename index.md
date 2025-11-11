@@ -13,8 +13,8 @@ title: Home
         {% for member in site.data.members %}
         <div class="col-md-6 col-lg-4">
           <div class="card h-100">
-            {% if member.photo %}
-            <img src="{{ member.photo | relative_url }}" class="card-img-top" alt="{{ member.name }}">
+           {% if member.photo %}
+            <img src="{{ member.photo | relative_url }}" class="faculty-img card-img-top" alt="{{ member.name }}">
             {% endif %}
             <div class="card-body text-center">
               <h5 class="card-title">{{ member.name }}</h5>
