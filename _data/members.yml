@@ -1,13 +1,10 @@
-# _data/members.yml
-# Faculty team members – displayed on the home page as cards.
-
 - name: Prof. Vedaj J Padman
-  title: Course Mentor
+  title: Mentor
   email: jp_vedaj@cb.amrita.edu
   photo: /assets/photos/vedaj.jpg
 
 - name: Prof. Krishna Priya G
-  title: Course Mentor
+  title: Mentor
   email: g_krishnapriya@cb.amrita.edu
   photo: /assets/photos/krishna.jpg
 
