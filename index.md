@@ -13,7 +13,7 @@ title: Home
         {% for member in site.data.members %}
         <div class="col-md-6 col-lg-4">
           <div class="card h-100">
-           {% if member.photo %}
+            {% if member.photo %}
             <img src="{{ member.photo | relative_url }}" class="faculty-img card-img-top" alt="{{ member.name }}">
             {% endif %}
             <div class="card-body text-center">
@@ -78,14 +78,33 @@ title: Home
         <a href="{{ '/docs/syllabus.pdf' | relative_url }}" class="list-group-item list-group-item-action">
           <i class="fas fa-file-pdf text-danger"></i> Syllabus
         </a>
-        <a href="https://drive.google.com/drive/folders/YOUR_FILES_ID" class="list-group-item list-group-item-action">
-          <i class="fas fa-folder-open text-warning"></i> Course Files
+        <a href="https://amritavishwavidyapeetham.sharepoint.com/sites/23CSE311SoftwareEngineering/Shared%20Documents" 
+           class="list-group-item list-group-item-action" target="_blank">
+          <i class="fas fa-folder-open text-warning"></i> Course Files (SharePoint)
         </a>
         <a href="https://drive.google.com/drive/folders/MINUTES_ID" class="list-group-item list-group-item-action">
           <i class="fas fa-clipboard-list text-success"></i> Meeting Minutes
         </a>
       </div>
     </div>
+
+    <!-- Embedded Course Files Directory -->
+    <section id="course-files" class="mt-4">
+      <h5 class="section-title"><i class="fas fa-folder-open me-2"></i>Course Files Directory</h5>
+      <div class="border rounded overflow-hidden" style="height: 420px;">
+        <iframe 
+          src="https://amritavishwavidyapeetham.sharepoint.com/sites/23CSE311SoftwareEngineering/Shared%20Documents/embed" 
+          width="100%" 
+          height="100%" 
+          frameborder="0" 
+          allowfullscreen 
+          loading="lazy">
+        </iframe>
+      </div>
+      <small class="text-muted d-block mt-2">
+        Files are hosted on SharePoint. Use the link above to open in full view.
+      </small>
+    </section>
 
     <!-- Resources -->
     <section id="resources" class="mt-4">
