@@ -90,13 +90,15 @@
     }
     .faculty-img {
   width: 100%;
-  height: 220px;           /* Fixed height for consistency */
-  object-fit: contain;     /* Show full photo, no crop */
-  object-position: top;    /* Align to top if needed */
-  background: #f8f9fa;     /* Light background for transparency */
-  padding: 8px;            /* Small inner spacing */
-  border-radius: 8px 8px 0 0;
+  height: 280px;                    /* Tall enough for all portraits */
+  object-fit: contain;              /* Show FULL image */
+  object-position: center top;      /* Prioritize face */
+  background: #ffffff;              /* Clean white background */
+  padding: 16px;                    /* Breathing room */
+  border-radius: 12px 12px 0 0;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
 }
+
   </style>
 </head>
 <body>
